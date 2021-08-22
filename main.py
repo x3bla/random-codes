@@ -1,8 +1,6 @@
 import json
 import OrderCart as o
 
-# so far, 3 hours of work
-# plus like 1 hour of fiddling around
 
 # variables
 Vouchers = []
