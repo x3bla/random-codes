@@ -2,14 +2,28 @@
     "English": {
         "Welcome": "Welcome to Generic Japanese Restaurant\n  1. View Menu\n  2. Shopping Cart\n  3. Exit\n\t>>> ",
         "Food": {
-            "Menu": "\tFood Selection\n\t  1. Rice and Don\n\t  2. Noodles\n\t  3. Beverages\n\t  4. Bento Set Meal\n\t\t>>> ",
-            "Rice": "\t\tRice Selection\n\t\t  1. Omelette Rice\n\t\t  2. Curry Rice\n\t\t  3. Pork Cutlet and Egg Rice Don\n\t\t\t>>> ",
-            "Noodles": "\t\tNoodles Selection\n\t\t  1. Miso Udon\n\t\t  2. Pork Ramen\n\t\t  3. Cold Green Tea Soba Noodles\n\t\t\t>>> ",
-            "Bento": "\t\tBentos:\n\t\t  1. Yakiniku Bento(Grilled beef)\n\t\t  2. Salmon Teriyaki Bento(Salmon & Teriyaki sauce)\n\t\t  3. Chicken Teriyaki Bento(Chicken & Teriyaki sauce)\n\t\t\t>>> \t\t"
+            "Menu": "\tFood Selection\n\t  1. Rice and Don\n\t  2. Noodles\n\t  3. Beverages\n\t  4. Bento Set Meal\n\t  5. Go back\n\t\t>>> ",
+            "Rice": "\t\tRice Selection\n\t\t  1. Omelette Rice\n\t\t  2. Curry Rice (modify)\n\t\t  3. Pork Cutlet and Egg Rice Don\n\t\t 4. Go back\n\t\t\t>>> ",
+            "Noodles": "\t\tNoodles Selection\n\t\t  1. Miso Udon\n\t\t  2. Pork Ramen (modify)\n\t\t  3. Cold Green Tea Soba Noodles\n\t\t 4. Go back\n\t\t\t>>> ",
+            "Bento": "\t\tBentos:\n\t\t  1. Yakiniku Bento(Grilled beef)\n\t\t  2. Salmon Teriyaki Bento(Salmon & Teriyaki sauce)\n\t\t  3. Chicken Teriyaki Bento(Chicken & Teriyaki sauce)\n\t\t 4. Go back\n\t\t\t>>> \t\t"
         },
         "Confirm": {
             "Rice": {
-                "Curry": "\t\t\tMeat selection\n\t\t\t  1. Pork\n\t\t\t  2. Steak\n\t\t\t  3. Vegetarian Pork\n\t\t\t\t>>> "
+                "Curry": "\t\t\tMeat selection\n\t\t\t  1. Pork\n\t\t\t  2. Steak\n\t\t\t  3. Vegetarian Pork\n\t\t\t\t>>> ",
+                "OmeletteOrder": "\t\tOmelette (x1) rice has been added to your cart",
+                "CurryOrder": "\t\tCurry Rice (x1) has been added to your cart",
+                "DonOrder": "\t\tPork Cutlet and Egg Rice Don (x1) has been added to your cart"
+            },
+            "Noodles": {
+                "Pork": "\t\t\tBroth selection\n\t\t\t  1. Spicy Broth\n\t\t\t  2. Normal Broth",
+                "MisoOrder": "\t\tMiso Udon (x1) has been added to your cart",
+                "PorkOrder": "\t\tPork Ramen (x1) has been added to your cart",
+                "SobaOrder": "\t\tCold Green Tea Soba Noodles (x1) has been added to your cart"
+            },
+            "Bento": {
+                "YakinikuOrder": "\t\tYakiniku Bento(Grilled Beef) (x1) has been added to your cart",
+                "SalmonOrder": "\t\tSalmon Teriyaki Bento(Salmon & Teriyaki sauce) (x1) has been added to your cart",
+                "ChickenOrder": "\t\tChicken Teriyaki Bento(Chicken & Teriyaki sauce) (x1) has been added to your cart"
             }
         }
     },
