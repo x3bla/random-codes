@@ -11,10 +11,10 @@ with open("inputDay2.txt", 'r') as f:
 for number in checkNumbers:
     number = number.strip()  # removing empty line  10-18 l: gllpmlgtrmnllhllrlll
     key_and_letter, pw = number.split(": ")  # splitString = ["10-18 l", "gllpmlgtrmnllhllrlll"]
-    key, letter = key_and_letter.split(" ")  # y = ["10-18", "l"]
-    range1, range2 = key.split("-")  # [10, 18]
+    ranges, letter = key_and_letter.split(" ")  # y = ["10-18", "l"]
+    range1, range2 = ranges.split("-")  # [10, 18]
 
-    if int(range1) <= pw.count(letter) <= int(range2):  # if 10 <= amount of letter <= 18
+    if pw[int(range1)-1] == letter or pw[int(range2)-1] == letter:  # if 10 <= amount of letter <= 18
         finalNum += 1
 
 print(finalNum)
